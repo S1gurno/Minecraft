@@ -3,193 +3,207 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #333;
-	background-color: #f5f5f5;
-  }
-  
-  a {
-	color: #0077cc;
+	color: #777;
+	background-color: #000;
+}
+
+a {
+	color: #777;
 	text-decoration: none;
-  }
-  
-  a:hover {
+	transition: all 0.2s ease-in-out;
+}
+
+a:hover {
 	text-decoration: underline;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
+	color: #F23545;
+}
+
+h2, h3, h4, h5, h6 {
 	font-weight: bold;
 	margin-bottom: 1rem;
-	color: #0077cc;
-  }
-  
-  p, ul, ol {
+	color: #F2B366;
+}
+
+p, ul, ol {
 	margin-bottom: 1rem;
-  }
-  
-  ul, ol {
+}
+
+ul, ol {
 	list-style: none;
-  }
-  
-  img {
+}
+
+img {
 	max-width: 100%;
 	height: auto;
-  }
-  
-  header {
-	/* background-color: #0077cc; */
+}
+
+header {
+	background-color: #F2B366;
 	padding: 2rem;
 	text-align: center;
-  }
-  
-  nav {
+}
+
+nav {
 	margin-bottom: 1rem;
-  }
-  
-  nav ul {
+}
+
+nav ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  
-  nav li {
+}
+
+nav li {
 	margin: 0 1rem;
-  }
-  
-  nav a {
+}
+
+nav a {
 	padding: 0.5rem;
-  }
-  
-  main {
+}
+
+main {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 2rem;
-  }
-  
-  .popup {
+}
+
+.popup {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	display: none;
 	justify-content: center;
 	align-items: center;
-  }
-  
-  .popup-content {
+}
+
+.popup-content {
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 5px;
 	text-align: center;
 	max-width: 500px;
-  }
-  
-  .dismiss-button {
-	background-color: #BF2441;
+}
+
+.dismiss-button {
+	background-color: #F23545;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
 	padding: 10px 20px;
 	margin-top: 10px;
 	cursor: pointer;
-  }
-  
-  .dismiss-button:hover {
-	background-color: #D9805F;
-  }
-  
-  /* Section Styles */
-  #about, #features, #rules, #staff, #contact {
+	transition: all 0.2s ease-in-out;
+}
+
+.dismiss-button:hover {
+	background-color: #BF793B;
+}
+
+/* Section Styles */
+#about,
+#features,
+#rules,
+#staff,
+#contact {
 	margin-bottom: 2rem;
-  }
-  
-  #about p {
+}
+
+#about p {
 	color: #777;
-  }
-  
-  #features li {
-	color: #333;
-  }
-  
-  #rules ol li {
+}
+
+#features li {
 	color: #777;
-  }
-  
-  #staff li {
+}
+
+#rules ol li {
+	color: #777;
+}
+
+#staff li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	color: #333;
-  }
-  
-  #staff h3 {
+	color: #F2B366;
+}
+
+#staff h3 {
 	margin-top: 1rem;
 	margin-bottom: 0.5rem;
-  }
-  
-  #staff p {
+}
+
+#staff p {
 	margin-bottom: 1rem;
-  }
-  
-  #contact form label {
+}
+
+#contact form label {
 	display: block;
 	margin-bottom: 0.5rem;
 	color: #777;
-  }
-  
-  #contact form input, #contact form textarea {
+}
+
+#contact form input,
+#contact form textarea {
 	display: block;
 	width: 100%;
 	padding: 0.5rem;
 	margin-bottom: 1rem;
 	border: none;
 	border-radius: 0.25rem;
-	color: #333;
-	background-color: #f5f5f5;
-  }
-  
-  #contact form textarea {
+	color: #fff;
+	background-color: #F2B366;
+}
+
+#contact form textarea {
 	height: 10rem;
-  }
-  
-  #contact form button[type="submit"] {
-	background-color: #0077cc;
-	color: #f5f5f5;
+}
+
+#contact form button[type="submit"] {
+	background-color: #BF793B;
+	color: #fff;
 	border: none;
 	border-radius: 0.25rem;
 	padding: 0.5rem;
 	cursor: pointer;
-  }
-  
-  #contact form button[type="submit"]:hover {
-	background-color: #005ba1;
-  }
-
-  .links{
-	color: white;
-  }
-footer {
-	background-color: #2f4f4f;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
+	transition: all 0.2s ease-in-out;
 }
+
 .head-img{
 	width: 25%;
 }
 .logo{
 	width: 10%;
-
+	
 }
 .pepe{
 	width: 25%;
 }
+.href-links{
+	color: #BF793B;
+}
+.contact{
+	color: #BF793B;
+}
+.copyright{
+	color: #777;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2%;
+	font-size: 25px;
+}
+.footer{
+	background-color: #F2B366;
+}
+
 
