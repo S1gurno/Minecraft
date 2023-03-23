@@ -218,6 +218,29 @@ main {
 	margin-bottom: 1rem;
 	color: #F2B366;
   }
+#factions {
+	text-align: center;
+}
+
+.faction-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 800px; /* adjust the width as needed */
+}
+
+.faction {
+	width: 200px; /* adjust the width as needed */
+	margin: 10px;
+	text-align: center;
+}
+
+.factions-img {
+	max-width: 100%;
+	height: auto;
+}
   
   .faction-card {
 	background-color: #fff;
@@ -333,4 +356,5 @@ main {
 	  color: #fff;
 	}
   }
+  
   
